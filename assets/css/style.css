@@ -717,15 +717,15 @@ ul {
 }
 
 .blogs .dot {
-    width: 30px;
+    width: 6px;
     height: 6px;
-    border-radius: 50px;
+    border-radius: 50%;
     background: #817c72;
+    cursor: pointer;
 }
 
-.blogs .dot .active {
+.blogs .dots .active {
     background-color: var(--primary-color);
-    cursor: pointer;
 }
 
 /* ========footer========= */
