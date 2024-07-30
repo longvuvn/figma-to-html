@@ -16,6 +16,15 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+@media (min-width: 319px) and (max-width: 481px) {
+    body {
+        width: 1206px;
+        height: 900px;
+        font-size: 1.6rem;
+        font-family: "Poppins", sans-serif;
+    }
+}
+
 /* ===============common==================== */
 a {
     text-decoration: none;
