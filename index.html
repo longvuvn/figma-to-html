@@ -10,8 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400..800&display=swap"
-        rel="stylesheet">   
+        rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Figma to HTML</title>
 </head>
 
@@ -149,8 +151,8 @@
                 </div>
                 <div class="course-list">
                     <!-- item 1 -->
-                    <div class="course-item">
-                        <img src="./assets/img/Hinh1.svg" alt="Basic web design" class="thumb">
+                    <div class="course-item" data-aos="zoom-in-up">
+                        <img src="./assets/img/Hinh1.svg" alt="Basic web design" class="thumb" >
 
                         <div class="info">
                             <div class="head">
@@ -171,8 +173,8 @@
 
 
                     <!-- item 2 -->
-                    <div class="course-item">
-                        <img src="./assets/img/Hinh2.jpg" alt="Basic web design" class="thumb">
+                    <div class="course-item" data-aos="zoom-in-up">
+                        <img src="./assets/img/Hinh2.jpg" alt="Basic web design" class="thumb" >
 
                         <div class="info">
                             <div class="head">
@@ -192,7 +194,7 @@
                     </div>
 
                     <!-- item 3 -->
-                    <div class="course-item">
+                    <div class="course-item" data-aos="zoom-in-up">
                         <img src="./assets/img/Hinh3.jpg" alt="Basic web design" class="thumb">
 
                         <div class="info">
@@ -247,8 +249,8 @@
                 <div class="features-item">
                     <!-- Khối trái -->
                     <div class="features-info">
-                        <img src="./assets/img/ft1.jpg" alt="ft1" class="lower">
-                        <img src="./assets/img/ft2.jpg" alt="ft2" class="height">
+                        <img src="./assets/img/ft1.jpg" alt="ft1" class="lower" data-aos="fade-right">
+                        <img src="./assets/img/ft2.jpg" alt="ft2" class="height" data-aos="fade-left">
                     </div>
                     <!-- Khối phải-->
                     <div class="content">
@@ -294,7 +296,7 @@
                 <!-- blog bottom -->
                 <div class="blogs-list">
                     <!-- item1 -->
-                    <div class="blogs-info">
+                    <div class="blogs-info" data-aos="zoom-in-up">
                         <a href="#!"><img src="./assets/img/study1.jpg"
                                 alt="How to become a pro web designer in 2022 and get remot job?" class="thumb"></a>
                         <div class="item">
@@ -306,7 +308,7 @@
                     </div>
 
                     <!-- item2 -->
-                    <div class="blogs-info">
+                    <div class="blogs-info" data-aos="zoom-in-up">
                         <a href=""><img src="./assets/img/study2.jpg"
                                 alt="How to become a pro web designer in 2022 and get remot job?" class="thumb"></a>
                         <div class="item">
@@ -319,7 +321,7 @@
 
 
                     <!-- item3 -->
-                    <div class="blogs-info">
+                    <div class="blogs-info" data-aos="zoom-in-up">
                         <a href=""><img src="./assets/img/study3.jpg"
                                 alt="How to become a pro web designer in 2022 and get remot job?" class="thumb"></a>
                         <div class="item">
@@ -339,13 +341,14 @@
             </div>
         </div>
         <!-- footer -->
-         <footer class="footer">
+        <footer class="footer">
             <div class="main-content">
                 <div class="row">
                     <!-- column 1 -->
                     <div class="column">
                         <img src="./assets/img/Lesson2..png" alt="Lesson" class="logo">
-                        <p class="desc">Need to help for your dream Career? trust us. With Lesson, study becomes a lot easier with us.</p>
+                        <p class="desc">Need to help for your dream Career? trust us. With Lesson, study becomes a lot
+                            easier with us.</p>
                         <div class="socials">
                             <a href="">
                                 <img src="./assets/img/twitter.svg" alt="tw" class="icon">
@@ -361,7 +364,7 @@
                             </a>
                         </div>
                     </div>
-                     <!-- column 2 -->
+                    <!-- column 2 -->
                     <div class="column">
                         <h3 class="title">Company</h3>
                         <ul class="list">
@@ -379,7 +382,7 @@
                             </li>
                         </ul>
                     </div>
-                     <!-- column 3 -->
+                    <!-- column 3 -->
                     <div class="column">
                         <h3 class="title">Support</h3>
                         <ul class="list">
@@ -397,7 +400,7 @@
                             </li>
                         </ul>
                     </div>
-                     <!-- column 4 -->
+                    <!-- column 4 -->
                     <div class="column">
                         <h3 class="title">Address</h3>
                         <ul class="list">
@@ -419,6 +422,12 @@
             </div>
         </footer>
     </main>
+
+    <!-- js animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
